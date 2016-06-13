@@ -5,23 +5,15 @@
       <?php if(!empty($userDetails)){?>
       <?php 
 	  $i = 0;
-	  foreach($userDetails as $user){
-		   if(in_array($user->img_status, array(STATUS_IMG_NOT_PRESENT, STATUS_IMG_SENT_FOR_APPROVAL, STATUS_IMG_REJECTED))){
-			  $profile_pic = USER_DEMO_PIC;
-			}else{
-		 	  $profile_pic = !empty($user->profile_pic) ? USER_PROFILE_HTTP_PATH.$user->profile_pic : USER_DEMO_PIC;
-			}
-		  ?>
+	  foreach($userDetails as $user){?>
       <?php if($i%2 == 0){?><div class="row"><?php }?>
           <div class="columns six">
-          	<a href="<?php echo PAGE_VIEW_PROFILE.$user->id;?>" target="_blank">
             <div class="view-history-content ">
               <div class="selected-profile-img">
-                <img src="<?php echo $profile_pic;?>">
+                <img src="<?php echo USER_DEMO_PIC;?>">
               </div>
-              <span class="selected-profile-name"><?php echo $user->full_name;?></span>
+              <span class="selected-profile-name"><a href="<?php echo PAGE_VIEW_PROFILE.$user->id;?>" target="_blank"><?php echo $user->full_name;?></a></span>
             </div>
-            </a>
           </div>
             <?php if($i%2 != 0){?></div><?php }?>
   		  <?php  $i++;}?>

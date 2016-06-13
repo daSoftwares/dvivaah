@@ -9,13 +9,7 @@
         </div>
    <?php if($this->Session->check('user_name') && count($users)){?>
         <?php foreach($users as $key => $obj){//debug($obj);?>
-         <?php 
-		 if(in_array($obj->img_status, array(STATUS_IMG_NOT_PRESENT, STATUS_IMG_SENT_FOR_APPROVAL, STATUS_IMG_REJECTED))){
-			  $profile_pic = USER_DEMO_PIC;
-			}else{
-		 	  $profile_pic = !empty($obj->profile_pic) ? USER_PROFILE_HTTP_PATH.$obj->profile_pic : USER_DEMO_PIC;
-			}
-		 ?>
+         <?php $profile_pic = !empty($obj->profile_pic) ? USER_PROFILE_HTTP_PATH.$obj->profile_pic : USER_DEMO_PIC;?>
          
         <div class="search-profile-container">
           <div class="search-profile-img"><img src="<?php echo $profile_pic;?>"></div>
@@ -44,6 +38,10 @@
                   <td><?php echo __('Subcast');?> :</td>
                   <td><span title="<?php echo $obj->sub_cast;?>"><?php echo $obj->sub_cast;?></span></td>
                 </tr>
+                <tr>
+                  <td><?php echo __('Education');?> :</td>
+                  <td><span title="<?php echo $obj->education ;?>"><?php echo $obj->education ;?></span></td>
+                </tr>
               </tbody>
             </table>
           </div>
@@ -64,10 +62,11 @@
                   <td><?php echo __('Service/Business');?> :</td>
                   <td><span title="<?php echo $obj->service ;?>"><?php echo $obj->service ;?></span></td>
                 </tr>
-               <tr>
-                  <td><?php echo __('Education');?> :</td>
-                  <td><span title="<?php echo $obj->education ;?>"><?php echo $obj->education ;?></span></td>
+               <?php /*  <tr>
+                  <td><?php echo __('Annual Income');?> :</td>
+                  <td><?php echo $obj->annual_income;?></td>
                 </tr>
+				*/ ?>
                  <tr>
                   <td><?php echo __('Residence');?> :</td>
                   <td><span title="<?php echo $obj->residence ;?>"><?php echo $obj->residence ;?></span></td>

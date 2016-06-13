@@ -142,7 +142,7 @@ class UserMgmt extends ProcessMgmt{
 			}
 			
 	public function sendProfileDetailsOnMobile($data = array(), $sendTo = 0){
-			return $this->processForProfileReq($data, $sendTo);
+			$sendData = $this->processForProfileReq($data, $sendTo);
 		}
 		
 		public function processForProfileReq($data = array(), $sendTo = 0){
@@ -151,7 +151,6 @@ class UserMgmt extends ProcessMgmt{
 				if($info->id == $sendTo){
 					$sendData['to_email'] = $info->email;
 					$sendData['user_name'] = $info->user_name;
-					$sendData['to_mob'] = $info->mob_no;
 				}else{
 					$sendData['full_name'] = $info->full_name;
 					$sendData['user_email'] = $info->email;
@@ -168,16 +167,5 @@ class UserMgmt extends ProcessMgmt{
 			$data['allow_days'] = (int)($expired_after_days + $data['allow_days']);
 			$data['is_sub_on'] = 1;
 			return $data;
-		}
-		
-	public function sendAccExpiryEmail($data = array(), $sendTo = null){ 
-			$email = new CakeEmail(SMTP_CONF); 
-			$email->to($sendTo);
-			//print_r($sendData);exit;
-			$email->emailFormat('html');
-			$email->template('send_expiry_email', 'default')->viewVars( $data);
-			$email->subject('Account Expiry Warning via Dhangar Vivaah.');
-			//print_r(compact($data) );exit;
-			$email->send();
 		}
 }

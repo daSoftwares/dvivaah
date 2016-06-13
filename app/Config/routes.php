@@ -49,7 +49,7 @@
 	Router::connect('/userShortList/*', array('controller' => 'user', 'action' => 'userShortList'));
 	Router::connect('/addToShortList/*', array('controller' => 'user', 'action' => 'addToShortList'));
 	Router::connect('/getContactDetails/*', array('controller' => 'user', 'action' => 'getContactDetails'));
-	Router::connect('/userSubscription/*', array('controller' => 'user', 'action' => 'userSubscription'));
+	Router::connect('/subcription/*', array('controller' => 'user', 'action' => 'subcription'));
 	Router::connect('/upgradeSubcription/*', array('controller' => 'user', 'action' => 'upgradeSubcription'));
 	Router::connect('/imgCropToFile', array('controller' => 'user', 'action' => 'imgCropToFile'));
 	Router::connect('/imgSaveToFile', array('controller' => 'user', 'action' => 'imgSaveToFile'));

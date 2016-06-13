@@ -39,7 +39,6 @@ class IndexController extends AppController {
 		$subs = $this->Subscription->findBySubId(1, array('sub_id', 'sub_name', 'sub_amount','allow_days', 'allow_profile'));
 		$data = array_merge($this->request->data, $subs['Subscription']);
 		$data = $this->UserMgmt->processUserInfo($data);
-		$data['user_registered_on'] = date('Y-m-d H:i:s');
 		//print_r($data);exit;
 		$this->User->create();
 		$this->User->set($data);
@@ -195,14 +194,11 @@ class IndexController extends AppController {
 	}
 	
 	public function search(){
-		
-		$user_id = $this->Session->check('id') ? $this->Session->read('id') : 0;
-		
 		$this->Prg->commonProcess();
 		
 		$this->Paginator->settings['limit'] = RECORD_PER_PAGE;
 		
-		$this->Paginator->settings['fields'] = array('id','full_name', 'img_status', 'profile_pic', 'complextion','age', 'height','sub_cast','education','service','annual_income','residence');
+		$this->Paginator->settings['fields'] = array('id','full_name', 'profile_pic', 'complextion','age', 'height','sub_cast','education','service','annual_income','residence');
 		
 		$parsedParam  = $this->Prg->parsedParams();
 		//$impParam = array('is_active' => 1);
@@ -210,15 +206,13 @@ class IndexController extends AppController {
 		$parsedParam['is_email_verified'] = 1;
 		$parsedParam['accept_terms'] = 1;
 		
-		
-		$this->Paginator->settings['conditions'] = array_merge($this->User->parseCriteria($parsedParam), array('User.id !=' => $user_id));
-		//debug($this->Paginator->settings['conditions']);exit;
+		$this->Paginator->settings['conditions'] = $this->User->parseCriteria($parsedParam);
+		//debug($parsedParam);exit;
 		$this->set('users', ($this->UserMgmt->processSearchResults($this->Paginator->paginate())));
 	}
 	
 	public function logout(){
 		$this->Session->destroy();
-		$this->Cookie->delete('alreadySuggested');
 		$this->redirect(Configure::read('App.fullBaseUrl'));	
 	}
 	

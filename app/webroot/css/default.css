@@ -103,9 +103,6 @@ input.button-primary[type="button"]:hover{
 th:first-child, td:first-child {
     padding-left: 15px;
 }
-.highlight-txt{
-	color: #d80202;
-}
 
 /*-------------Add-----------------*/
 .add-banner{
@@ -319,44 +316,12 @@ nav li a:hover{
 	text-align: center;
 }
 
-/*--------------Four Steps------------*/
-.four-steps{
-	text-align: center;
-}
-.four-steps h4{
-    width: 100%;
-    margin: 5px auto;
-    padding: 10px;
-
-	background: #8d8e8e;
-	color: #fff;
-    border-radius: 6px;
-    border: 1px solid goldenrod;
-}
-.four-steps .arrow{
-	background: url("../img/down-arrow.png") center no-repeat;
-	display: block;
-    height: 32px;
-}
-
-/*-----------------Footer---------------------*/
-footer{
-	padding:10px 0;
-	text-align: center;
-	color: #fff;
-	font-size: 12px;
-}
-
-.terms-condition a{
-	color: #fff;
-}
-
 /*--------------Subscription-----------*/
 
-.subscription-page{
+.subscription-plans{
 	padding: 50px 0;
 }
-.subscription-page .button{
+.subscription-plans .button{
 	border-radius:6px;
 }
 
@@ -383,18 +348,26 @@ footer{
 	font-size: 18px;
 }
 
-.subscription-page .rupee{
+.subscription-plans .rupee{
 	display: block;
 	margin-top: 20px;
 	font-size: 35px;
 }
 
-.unorder-list li{
-	font-size: 15px;
-	list-style-type: disc;
-	margin: 10px 0 0 20px;
-	padding-left: 20px;
-	list-style-position: outside;
+.subscription-more-details{
+	display: block;
+}
+
+/*-----------------Footer---------------------*/
+footer{
+	padding:10px 0;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+}
+
+.terms-condition a{
+	color: #fff;
 }
 
 /*-----------------Registration Form---------------------*/
@@ -423,6 +396,23 @@ select, textarea, input[type="text"], input[type="password"]{
 
 .datepicker{
 	width:235px;
+}
+
+/*********Validation Error***************/
+input[type="email"].error,
+input[type="number"].error,
+input[type="search"].error,
+input[type="text"].error,
+input[type="tel"].error,
+input[type="url"].error,
+input[type="password"].error,
+textarea.error
+input.error{
+	border: 1px solid #e02424;
+}
+.error{
+	font-size: 12px;
+	color: #e02424;
 }
 
 /**************Search Result**********************/

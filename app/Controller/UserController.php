@@ -54,12 +54,12 @@ class UserController  extends AppController {
 			$msgText = __('YOU ARE NOT A PAID SUBSCRIBED USER PLEASE <a href="'.PAGE_USER_SUBS.'">CLICK HERE</a> TO SUBSCRIBE AND GET MORE FEATURES.');	
 		}
 		//debug($userDetails);
-		if(!empty($userDetails) && (!$this->Cookie->check('alreadySuggested'))){
+		
+		if(!empty($userDetails)){
 				$this->User->clear();
 				
 				$suggestedProfile = $this->UserMgmt->processSearchResults($this->User->find('all', array(
 						'conditions' => array(
-							'id !=' => $this->Session->read('id'),
 							'user_type' => !($userDetails['user_type']),
 							'OR' => array(
 									'education' => $userDetails['exp_education'],
@@ -69,14 +69,11 @@ class UserController  extends AppController {
 							'is_email_verified' => 1,
 							'accept_terms' => 1
 							),
-						'fields' => array('id','full_name','img_status', 'profile_pic', 'complextion','age', 'height','sub_cast','education','service','annual_income','residence'),
-						'order' => array('id desc'),
-						'limit' => RECORD_PER_PAGE						
+						'fields' => array('id','full_name', 'profile_pic', 'complextion','age', 'height','sub_cast','education','service','annual_income','residence'),
+						'limit' => 3
 					)
 				));
-				$this->Cookie->write('alreadySuggested', 'yes');
-			}else{
-				$this->Cookie->write('alreadySuggested', 'no');	
+				
 			}
 		
 		$this->set(compact('userDetails','msgClass', 'msgText', 'suggestedProfile'));				
@@ -134,7 +131,7 @@ class UserController  extends AppController {
 			//SELECT * FROM wp_posts WHERE datediff(now(),post_date)> 0 && datediff(now(),post_date) < 90
 			$userDetails = $this->UserProfileHistory->find('all', 
 					array(
-						'fields' => array('User.id', 'User.full_name', 'User.img_status', 'User.profile_pic', 'date_added'), 
+						'fields' => array('User.id', 'User.full_name', 'date_added'), 
 						'conditions' =>  array(
 										'add_by' => $user_id,
 										'datediff(now(), date_added) > ' => 0,
@@ -161,7 +158,7 @@ class UserController  extends AppController {
 			$user_id = $this->Session->read('id');
 			$userDetails = $this->ShortlistedProfile->findAllByAddBy(
 									$user_id,  
-									array('User.id', 'User.full_name','User.img_status', 'User.profile_pic'), 
+									array('User.id', 'User.full_name'), 
 									array('date_added' => 'desc'),
 									20 // limit 
 							);
@@ -258,24 +255,22 @@ class UserController  extends AppController {
 													  'date_added' => CakeTime::toServer(time())	
 				
 													  	));
-				// send contact details on email and mobile
+				// send contat details on email and mobile
 				$details = $this->User->find('all', array(
 						'conditions' => array('id IN' => array($user_id, $profile_of)),
 						'fields' => array('id', 'user_name','full_name' ,'email', 'mob_no','alter_mob_no', 'tel_no')));
 				$details =  $this->UserMgmt->processSearchResults($details);
+				//print_r($details);
 				try{
 				$this->UserMgmt->sendProfileDetailsOnEmail($details, $user_id);
 				
 				
 				// Mobile field is empty no SMS will sent
-				$data = $this->UserMgmt->sendProfileDetailsOnMobile($details, $user_id);
-				
-				if(!empty($data['to_mob'])){
-				
+				if(!empty($data['mob_no'])){
 					$this->Sms->send(SMS_TEMP_PROFILE, 
 						array('%username%' =>  $data['user_name'], 
-							  '%registeredEmail%'  => $data['to_email']),
-						  $data['to_mob']);
+							  '%registeredEmail%'  => $data['email']),
+						  $data['mob_no']);
 					}
 					echo 1;
 				}catch(Exception $e){
@@ -294,13 +289,13 @@ class UserController  extends AppController {
 		}
 	}
 	
-	public function userSubscription($user_id = 0) {
+	public function subcription($user_id = 0) {
 		$subInfo = array();
 		$msgClass = $msgText = NULL;
 		
 		if($user_id == 0 || ($user_id == $this->Session->read('id'))){
 			$user_id = $this->Session->read('id');
-			$subInfo = $this->User->findById($user_id, array('id', 'sub_name', 'sub_amount','allow_days', 'user_registered_on','date_created'));
+			$subInfo = $this->User->findById($user_id, array('id', 'sub_name', 'sub_amount','allow_days', 'date_created'));
 		$subInfo =  $this->UserMgmt->processSearchResults($subInfo);
 		}
 		$subOptions = $this->UserMgmt->processSearchResults($this->Subscription->findAllByIsActive(1, array('sub_id', 'sub_name', 'sub_amount')));
@@ -355,7 +350,6 @@ class UserController  extends AppController {
 				
 				$imgName = $this->UserMgmt->uploadProfileImage($this->request->params['form']['full_pic']);
 				$this->User->id = $user_id;
-				$this->User->set('img_status', STATUS_IMG_SENT_FOR_APPROVAL);
 				$this->User->set('full_pic', $imgName);
 				$this->User->save();
 			

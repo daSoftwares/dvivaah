@@ -235,17 +235,6 @@
               </select>
             </div>
           </div>
-          
-          <div class="row">
-            <div class="six columns">
-              <label><?php echo __('Native Place');?></label>
-              <input type="text" name="native_place"  value="<?php echo $userDetails['native_place'];?>">
-            </div>
-            <div class="six columns">
-               <label><?php echo __('Residence');?></label>
-              <input type="text" name="residence"  value="<?php echo $userDetails['residence'];?>">
-            </div>
-          </div>
           <div class="row registration-form-btn">
             <input type="submit" class="button button-primary"  value="<?php echo __('SAVE');?>" />
           </div>

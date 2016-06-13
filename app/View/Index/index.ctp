@@ -95,16 +95,39 @@
   	</div>
 </div>
 </section>
-<section class="wrapper-max color-background-section four-steps">
-    <div class="container">
-      <div class="content-style">
-        <div class="row">
-          <h2><?php echo __('4 Easy Steps to Find your Life Partner');?></h2>
-          <h4><?php echo __('Create Your Account');?></h4><span class="arrow"></span>
-          <h4><?php echo __('Subscribe to Dhangar Vivaah');?></h4><span class="arrow"></span>
-          <h4><?php echo __('Search profile as per your requirment');?></h4><span class="arrow"></span>
-          <h4><?php echo __('Get Contact Details on registered Email');?></h4>
-        </div>
-      </div>
-    </div>
-  </section>
+
+<section class="wrapper-max color-background-section subscription-plans">
+<div class="container">
+  <div class="row">
+	<div class="four columns three-months">
+	  <div class="subscription-months">
+		<p>3 <?php echo __('Months');?></p>
+	  </div>
+	  <span class="rupee"><sub>&#x20B9;</sub>300</span>
+	  <p><?php echo __('Get four profile contact details each month');?></p>
+	  <p><a class="subscription-more-details" href="#."><?php echo __('Read More');?></a></p>
+	  <a class="button button-primary" href="<?php echo PAGE_REGISTER;?>"><?php echo __('REGISTER NOW');?></a>
+	</div>
+	<div class="four columns six-months">
+	   <div class="subscription-months">
+		<p>6 <?php echo __('Months');?></p>
+	  </div>
+	  <span class="rupee"><sub>&#x20B9;</sub>500</span>
+	  <p><?php echo __('Get four profile contact details each month');?></p>
+	  <p><a class="subscription-more-details" href="#."><?php echo __('Read More');?></a></p>
+	  <a class="button button-primary" href="<?php echo PAGE_REGISTER;?>"><?php echo __('REGISTER NOW');?></a>
+	</div>
+
+	<div class="four columns thelve-months">
+	   <div class="subscription-months">
+		<p>1 <?php echo __('Year');?></p>
+	  </div>
+	  <span class="rupee"><sub>&#x20B9;</sub>800</span>
+	  <p><?php echo __('Get four profile contact details each month');?></p>
+	  <p><a class="subscription-more-details" href="#."><?php echo __('Read More');?></a></p>
+	  <a class="button button-primary" href="<?php echo PAGE_REGISTER;?>"><?php echo __('REGISTER NOW');?></a>
+	</div>
+
+  </div>
+</div>
+</section>

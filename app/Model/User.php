@@ -224,17 +224,15 @@ class User extends AppModel {
 							 ), 
 			),
 			'nakshatra' => array( 
-				'nakshatra' => array( 
+				'required' => array( 
 								'rule' => 'notEmpty',
-								'message' => __('Please enter your nakshatra.'),
-								'allowEmpty' => true
+								'message' => __('Please enter your nakshatra.')
 							 ), 
 			),
 			'nadi' => array( 
-				'nadi' => array( 
+				'required' => array( 
 								'rule' => 'notEmpty',
-								'message' => __('Please select your nadi.'),
-								'allowEmpty' => true
+								'message' => __('Please select your nadi.')
 							 ), 
 			),
 			'education' => array( 
@@ -319,18 +317,6 @@ class User extends AppModel {
 				'required' => array( 
 								'rule' => 'notEmpty',
 								'message' => __('Please enter your expected preffered city.')
-							 ), 
-			),
-			'native_place' => array( 
-				'required' => array( 
-								'rule' => 'notEmpty',
-								'message' => __('Please enter native city.')
-							 ), 
-			),
-			'residence' => array( 
-				'required' => array( 
-								'rule' => 'notEmpty',
-								'message' => __('Please enter residence city.')
 							 ), 
 			),
 		); 

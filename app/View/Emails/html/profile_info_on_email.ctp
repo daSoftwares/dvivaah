@@ -59,7 +59,7 @@
                             <br>
                             Dear <span><?php echo $user_name;?></span>,
                             <br>
-                            Requested profile information as follows:
+                            Requested profile info as follows:
                             <br>
                             <br>
                             Full Name : <?php echo $full_name;?>.

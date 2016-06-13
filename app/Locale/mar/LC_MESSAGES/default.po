@@ -1054,38 +1054,3 @@ msgstr "आवडते सूचीमध्ये समाविष्ट क
 #: View/User/profile.ctp:37
 msgid "GET CONTACT DETAILS"
 msgstr "संपर्क माहिती मिळवणे"
-
-#: View/Elements/suggested-profiles-modal.ctp:37
-msgid "Suggested Profiles"
-msgstr "सूचित प्रोफाइल"
-
-#: View/User/index.ctp:102
-msgid "4 Easy Steps to Find your Life Partner"
-msgstr "४ सोपी पावले तुमचा योग्य जोडीदार शोधण्यासाठी!"
-
-#: View/User/index.ctp:103
-msgid "Create Your Account"
-msgstr "आपले खाते तयार करा!"
-
-#: View/User/index.ctp:104
-msgid "Subscribe to Dhangar Vivaah"
-msgstr "धनगर विवाहची सदस्यता घ्या!"
-
-#: View/User/index.ctp:105
-msgid "Search profile as per your requirment"
-msgstr "आपल्या  गरजेनुसार प्रोफाइल शोधा!"
-
-#: View/User/index.ctp:106
-msgid "Get Contact Details on registered Email"
-msgstr "आपल्या रजिस्टर मेल आयडी वर संपर्क तपशील मिळवा!"
-
-#: View/User/subscription.ctp:2
-#: View/User/subscription.ctp:10
-msgid "Facilities after Subscription"
-msgstr "सदस्यता नंतर मिळणारी सुविधा"
-
-#: View/User/subscription.ctp:16
-#: View/User/subscription.ctp:25
-#: View/User/subscription.ctp:35
-msgid "SUBSCRIBE NOW"
-msgstr "सदस्यता घ्या"

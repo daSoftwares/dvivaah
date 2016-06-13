@@ -1,4 +1,3 @@
-<?php if(!$this->Session->check('id')){?>
 <!-- Forgot Password -->
 <div class="modal fade forgot-pass-modal" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog forgot-pass-container">
@@ -25,4 +24,3 @@
 	</div>
   </div>
 </div>
-<?php }?>

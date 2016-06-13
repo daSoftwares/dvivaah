@@ -1,6 +1,6 @@
 <section class="wrapper-max contact-us">
     <div class="container">
-      <?php echo $this->element('add-banner');?>
+      <div class="add-banner">Add Banner</div>
       <div class="content-style">
         <div class="contact-us-content">
           <h2>Contact Us</h2>

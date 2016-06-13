@@ -3,23 +3,10 @@
   <div class="container">
      <div class="content-style">
      <?php echo $this->element('action-msg-div');?>
-  <?php if(!empty($userDetails)){
- 	 if($this->Session->read('id') === $userDetails['id']){
-	  	if($userDetails['img_status'] == STATUS_IMG_NOT_PRESENT){
-			$profile_pic = $full_pic = IMG_SENT_NOT_PRESENT;
-		}elseif($userDetails['img_status'] == STATUS_IMG_SENT_FOR_APPROVAL){
-			$profile_pic = $full_pic = IMG_SENT_FOR_APPROVAL;
-		}elseif($userDetails['img_status'] == STATUS_IMG_REJECTED){
-			$profile_pic = $full_pic = IMG_REJECTED;
-		}else{
-			$profile_pic = !empty($userDetails['profile_pic']) ? USER_PROFILE_HTTP_PATH.$userDetails['profile_pic'] : USER_DEMO_PIC;
+  <?php if(!empty($userDetails)){?>
+   <?php $profile_pic = !empty($userDetails['profile_pic']) ? USER_PROFILE_HTTP_PATH.$userDetails['profile_pic'] : USER_DEMO_PIC;
    		  $full_pic = !empty($userDetails['full_pic']) ? USER_PROFILE_HTTP_PATH.$userDetails['full_pic'] : USER_DEMO_PIC;
-		}
-	 }else{
-			 $profile_pic = !empty($userDetails['profile_pic']) && ($userDetails['img_status'] ==STATUS_IMG_APPROVED) ? USER_PROFILE_HTTP_PATH.$userDetails['profile_pic'] : USER_DEMO_PIC;
-   		  $full_pic = !empty($userDetails['full_pic']) && ($userDetails['img_status'] ==STATUS_IMG_APPROVED) ? USER_PROFILE_HTTP_PATH.$userDetails['full_pic'] : USER_DEMO_PIC;
-		}
-	  ?>
+   ?>
       <div class="my-profile-img-container">
         <div class="my-profile-img">
         	 <div class="my-image" data-toggle="modal" data-target=".zoom-profile-img">

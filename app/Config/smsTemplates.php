@@ -1,11 +1,11 @@
 <?php
 $config['smsTemplates'] = array(
 
-			'profile_details' => 'Dear %username%, Requested profile details are sent to your %registeredEmail%. Team Dhangar Vivaah',
+			'profile_details' => 'Dear %username%, Requested profile details are been sent to your  %registeredEmail% You can request more 9 profile Details in current month. Team Dhangar Vivaah',
 			
 			'payment' => 'Dear %username%, Thank You Payment received for amount Rs. %amount% your %package% is activates. Team Dhangar Vivaah',
 			
-			'account_v_reminder' => 'Dear %username%, Your Account is expiring in %date%. Please renew to avoid an interruption in service. Team Dhangar Vivaah',
+			'account_v_reminder' => 'Dear %username%, Your Account is expiring on %date% Please renew to avoid an interruption in service. Team Dhangar Vivaah',
 			
 			'change_password' => 'Dear %username%, Your temporary password is %tempPassword%, Please login and change your password for safety of your account Team Dhangar Vivaah',
 			

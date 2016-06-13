@@ -12,8 +12,8 @@ $(document).ready(function(){
 	  <?php if($this->Session->read('sub_id') == 1){?>
       	getErrorNotify(1);
 	  <?php }?> 
-	  <?php if($this->Session->read('expiry')<= 15){?>
-      	getErrorNotify(2);
+	  <?php if($this->Session->read('expiry')<= 10){?>
+      	getErrorNotify(1);
 	<?php }?> 
 });
 function getErrorNotify(num = 0){

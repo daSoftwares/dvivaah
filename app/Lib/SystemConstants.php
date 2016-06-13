@@ -46,7 +46,7 @@ define('PAGE_VIEW_PROFILE', HTTP_PATH.'profile/');
 define('PAGE_EDIT_PROFILE', HTTP_PATH.'editProfile/');
 define('PAGE_USER_HISTORY', HTTP_PATH.'viewHistory');
 define('PAGE_USER_SLIST', HTTP_PATH.'userShortList');
-define('PAGE_USER_SUBS', HTTP_PATH.'userSubscription');
+define('PAGE_USER_SUBS', HTTP_PATH.'subcription');
 define('PAGE_USER_UPGRADE_SUBS', HTTP_PATH.'upgradeSubcription');
 
 define('PAGE_IMG_CROP', HTTP_PATH.'imgCropToFile');
@@ -58,7 +58,7 @@ define('PAGE_CHANGE_PASSWD', HTTP_PATH.'changePassword/');
 /**
  * Define site wide contants
  */
-define('RECORD_PER_PAGE', 5);
+define('RECORD_PER_PAGE', 3);
 
 
 define('SMS_TEMP_PROFILE', 'profile_details');
@@ -66,15 +66,3 @@ define('SMS_TEMP_PAYMENT', 'payment');
 define('SMS_TEMP_VALIDITY_REMINDER', 'account_v_reminder');
 define('SMS_TEMP_CHANGE_PASSWORD', 'change_password');
 define('SMS_TEMP_REGISTRATION', 'registration');
-
-// user image status
-define('STATUS_IMG_NOT_PRESENT', '0');
-define('IMG_SENT_NOT_PRESENT',  HTTP_PATH.'img/img-not-available.jpg');
-
-define('STATUS_IMG_SENT_FOR_APPROVAL', '1');
-define('IMG_SENT_FOR_APPROVAL',  HTTP_PATH.'img/img-sent-for-approval.jpg');
-
-define('STATUS_IMG_REJECTED', '2');
-define('IMG_REJECTED',  HTTP_PATH.'img/img-not-approved.jpg');
-
-define('STATUS_IMG_APPROVED', '3');

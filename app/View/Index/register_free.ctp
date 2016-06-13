@@ -1,6 +1,6 @@
 <section class="wrapper-max registration-form">
 <div class="container">
-      <?php echo $this->element('add-banner');?>
+      <div class="add-banner">Add Banner</div>
           <div class="content-style">
           <h2><?php echo __('Registration Form');?></h2>
           <form id="signupForm" action="" method="post">

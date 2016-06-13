@@ -1,19 +1,14 @@
-<?php if($cookieHelper->read('alreadySuggested') == 'yes'){?>
 <div class="modal fade suggested-profiles" tabindex="-1" role="dialog" aria-hidden="true">
 <div class="modal-dialog modal-lg">
   <div class="modal-content">
     <div class="modal-header">
       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      <h4 class="modal-title" id="myModalLabel"><?php echo __('Suggested Profiles');?></h4>
+      <h4 class="modal-title" id="myModalLabel">Suggested Profiles</h4>
     </div>
     <div class="modal-body">
       <?php if(!empty($suggestedProfile)){
 		     foreach($suggestedProfile as $key => $obj){
-			 if(in_array($obj->img_status, array(STATUS_IMG_NOT_PRESENT, STATUS_IMG_SENT_FOR_APPROVAL, STATUS_IMG_REJECTED))){
-			  $profile_pic = USER_DEMO_PIC;
-			}else{
-		 	  $profile_pic = !empty($obj->profile_pic) ? USER_PROFILE_HTTP_PATH.$obj->profile_pic : USER_DEMO_PIC;
-			}?>
+		     		$profile_pic = !empty($obj->profile_pic) ? USER_PROFILE_HTTP_PATH.$obj->profile_pic : USER_DEMO_PIC;?>
       <div class="search-profile-container">
         <div class="search-profile-img"><img src="<?php echo $profile_pic;?>"></div>
         <div class="search-porfile-des border">
@@ -102,4 +97,3 @@
   </div>
 </div>
 </div>
-<?php }?>
