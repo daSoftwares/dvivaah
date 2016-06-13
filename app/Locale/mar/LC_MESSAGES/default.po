@@ -1,0 +1,1091 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-03-14 14:52+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/IndexController.php:47
+msgid "Registration Successfull."
+msgstr "नोंदणी यशस्वी"
+
+#: Controller/IndexController.php:77
+msgid "You have verified successfully, Please login to access your account."
+msgstr "खाते सक्रिय यशस्वी ,आपल्या खात्यात प्रवेश करण्यासाठी लॉग इन करा"
+
+#: Controller/IndexController.php:80
+msgid "Verification fails, invalid code or email."
+msgstr "तपासणी अपयशी, अवैध संकेतशब्द किंवा ई मेल आयडी"
+
+#: Controller/UserController.php:15
+msgid "Please login to perfom any action."
+msgstr "कोणतीही क्रिया करण्यासाठी लॉग इन करा"
+
+#: Controller/UserController.php:46
+msgid "No Record Found!"
+msgstr "रेकॉर्ड आढळले नाही!"
+
+#: Controller/UserController.php:50
+msgid "YOU ARE NOT A PAID SUBSCRIBED USER PLEASE <a href=\""
+msgstr "आपण सदस्यता घेतली नाही कृपया <a href=\""
+
+#: Controller/UserController.php:79
+msgid "Data Updated Succesfully."
+msgstr "डेटा यशस्वीरित्या पूर्ण"
+
+#: Controller/UserController.php:90;122;142;304;348
+msgid "You are not allowed to access this page."
+msgstr "या पृष्ठावर प्रवेश करण्याची अनुमती नाही"
+
+#: Controller/UserController.php:181
+msgid "You have shortlisted maximum alloted profiles, Please remove earlier to short list more."
+msgstr "आपण जास्तीत जास्त प्रोफाइल निवडले आहे, काही जुन्या प्रोफाइल काढा"
+
+#: Controller/UserController.php:186
+msgid "This Profile already present in your list."
+msgstr "प्रोफाइल आपल्या सूचीमध्ये आधीपासूनच उपस्थित आहे"
+
+#: Controller/UserController.php:243
+msgid "You have already contacted maximum allowed profiles this month."
+msgstr "तुमची या महिन्यातील प्रोफाइल प्राप्तीची अवधी संपली आहे, कृपया पुढिल महिन्यात विनंती पाठवा."
+
+#: Controller/UserController.php:249
+msgid "You have already recieved contact information of this profile."
+msgstr "आपण आधिच या प्रोफाइलची माहिती प्राप्त केली आहे."
+
+#: Controller/UserController.php:295
+msgid "You are now a paid subscribed user."
+msgstr "आपण आता सशुल्क वापरकर्ता सदस्य आहात."
+
+#: Controller/UserController.php:344
+msgid "Please crop / rotate / resize image as per your need."
+msgstr "कृपया आपल्या गरजेनुसार प्रतिमेचा आकार बदला."
+
+#: Controller/UserController.php:372
+msgid "Password Changed Successfully."
+msgstr "पासवर्ड यशस्वीरित्या बदलला."
+
+#: Controller/UserController.php:375
+msgid "Please enter correct current password."
+msgstr "कृपया तुमचा उपस्थित अचुक पासवर्ड प्रविष्ट करा"
+
+#: Lib/ProcessMgmt.php:6
+msgid "Error!"
+msgstr "त्रुटी!"
+
+#: Lib/UserMgmt.php:82
+msgid "Verification mail sending fail, Please contact site administrator."
+msgstr "मेल सत्यापन अपयशी, कृपया आमच्याशी संपर्क साधा "
+
+#: Lib/UserMgmt.php:84
+msgid "Verification mail send sucessfully. Please check your mail inbox."
+msgstr "पडताळणी मेल यशस्वीपणे पाठविले. आपले मेल इनबॉक्स तपासा "
+
+#: Lib/UserMgmt.php:99
+msgid "Password sending fail, Please contact site administrator."
+msgstr "पासवर्ड पाठविण्यात अयशस्वी, कृपया पुन्हा प्रयत्न करा किंवा आमच्याशी संपर्क साधा"
+
+#: Lib/UserMgmt.php:102
+msgid "Password has been sent sucessfully. Please check your mail inbox."
+msgstr "पासवर्ड यशस्वीपणे पाठविले गेले आहे, आपले मेल इनबॉक्स तपासा "
+
+#: Lib/UserMgmt.php:136
+msgid "Profile on email sending fail, Please contact site administrator."
+msgstr "प्रोफाइल तपशील ईमेलवर पाठविण्यात अयशस्वी, कृपया पुन्हा प्रयत्न करा किंवा आमच्याशी संपर्क साधा "
+
+#: Lib/UserMgmt.php:139
+msgid "Profile on email has been sent sucessfully. Please check your mail inbox."
+msgstr "प्रोफाइल तपशील ईमेलवर यशस्वीपणे पाठविले गेले आहे, आपले मेल इनबॉक्स तपासा "
+
+#: Model/User.php:73
+msgid "Please enter your full name."
+msgstr "कृपया आपले पूर्ण नाव प्रविष्ट करा"
+
+#: Model/User.php:77
+msgid "Full name must be between 6 to 30 characters."
+msgstr "पूर्ण नाव 6 ते 30 अक्षरी असणे आवश्यक आहे"
+
+#: Model/User.php:84
+msgid "Please enter a valid date of birth."
+msgstr "कृपया वैध जन्म तारीख प्रविष्ट करा "
+
+#: Model/User.php:91
+msgid "Please Enter Valid Email-id."
+msgstr "कृपया वैध ईमेल - आयडी प्रविष्ट करा "
+
+#: Model/User.php:98
+msgid "Please Accept terms."
+msgstr "कृपया अटी मान्य करा "
+
+#: Model/User.php:104
+msgid "Please select Sub-Caste."
+msgstr "कृपया उप - जाती निवडा "
+
+#: Model/User.php:110
+#: View/Elements/validation-rules.ctp:33
+msgid "Please enter user name."
+msgstr "कृपया आपले युजर नेम प्रविष्ट करा"
+
+#: Model/User.php:114
+msgid "User name must be between 6 to 30 characters."
+msgstr "युजर नेम 6 ते 30 अक्षरी असणे आवश्यक आहे"
+
+#: Model/User.php:118
+msgid "User Name is already in use, Choose another."
+msgstr "युजर नेम आधीच वापरात आहे,कृपया अन्य निवडा"
+
+#: Model/User.php:125
+msgid "Current password must be between 6 and 30 characters."
+msgstr "उपस्थित पासवर्ड 6 ते 30 अक्षरी असणे आवश्यक आहे"
+
+#: Model/User.php:131
+msgid "Your password must be between 6 and 30 characters."
+msgstr "आपला पासवर्ड 6 ते 30 अक्षरी असणे आवश्यक आहे"
+
+#: Model/User.php:137
+msgid "Confirm password must be between 6 and 30 characters."
+msgstr "कनफम पासवर्ड 6 ते 30 अक्षरी असणे आवश्यक आहे"
+
+#: Model/User.php:141
+#: View/Elements/validation-rules.ctp:44
+msgid "The passwords you entered do not match."
+msgstr "आपण प्रविष्ट केलेला पासवर्ड जुळत नाही"
+
+#: Model/User.php:152
+msgid "Please enter your first name."
+msgstr "कृपया आपले नाव प्रविष्ट करा"
+
+#: Model/User.php:156
+msgid "First name must be between 3 to 30 characters."
+msgstr "नाव 6 ते 30 अक्षरी असणे आवश्यक आहे"
+
+#: Model/User.php:162
+msgid "Please enter valid 10 digit mobile number."
+msgstr "कृपया आपला वैध १० अंकी मोबाईल नंबर प्रविष्ट करा"
+
+#: Model/User.php:168;175
+msgid "Please enter valid 10 digit alternet mobile number."
+msgstr "कृपया आपला वैध १० अंकी मोबाईल नंबर 2 प्रविष्ट करा"
+
+#: Model/User.php:183
+msgid "Please enter your Birth Place."
+msgstr "कृपया आपले जन्म ठिकाण प्रविष्ट करा"
+
+#: Model/User.php:187
+msgid "Birth Place must be between 3 to 30 characters."
+msgstr "जन्म ठिकाण 3 ते 30 अक्षरी असणे आवश्यक आहे"
+
+#: Model/User.php:193
+msgid "Please enter your Birth Time."
+msgstr "कृपया आपली जन्म वेळ प्रविष्ट करा"
+
+#: Model/User.php:199
+msgid "Please select your Complexion."
+msgstr "कृपया आपला वर्ण निवडा"
+
+#: Model/User.php:205
+msgid "Please select your Marital Status."
+msgstr "आपल्या वैवाहिक स्थिती निवडा"
+
+#: Model/User.php:211
+msgid "Please select your height."
+msgstr "कृपया आपली उंची निवडा"
+
+#: Model/User.php:217
+msgid "Please select your blood group."
+msgstr "कृपया आपला रक्त गट निवडा"
+
+#: Model/User.php:223
+msgid "Please select your sun shine."
+msgstr "कृपया आपली रास निवडा"
+
+#: Model/User.php:229
+msgid "Please enter your nakshatra."
+msgstr "कृपया आपला नक्षत्र प्रविष्ट करा"
+
+#: Model/User.php:235
+msgid "Please select your nadi."
+msgstr "कृपया आपली नाडी निवडा"
+
+#: Model/User.php:241
+msgid "Please select your education."
+msgstr "कृपया आपले शिक्षण निवडा"
+
+#: Model/User.php:247
+msgid "Please select your service type."
+msgstr "कृपया आपले नोकरी / व्यवसाय निवडा"
+
+#: Model/User.php:253
+msgid "Please select your occupation."
+msgstr "कृपया आपले व्यवसाय निवडा"
+
+#: Model/User.php:259
+msgid "Please enter your annual income."
+msgstr "कृपया आपले वार्षिक उत्पन्न प्रविष्ट करा"
+
+#: Model/User.php:265
+msgid "Married brother cannot be greater than total brother."
+msgstr "विवाहित भाऊ एकूण भाऊ पेक्षा जास्त असू शकत नाही"
+
+#: Model/User.php:272
+msgid "Married brothers cannot be greater than total brothers."
+msgstr "विवाहित भाऊ एकूण भाऊ पेक्षा जास्त असू शकत नाही"
+
+#: Model/User.php:279
+msgid "Married sisters cannot be greater than total sisters"
+msgstr "विवाहित बहिणी एकूण बहिणी पेक्षा जास्त असू शकत नाही"
+
+#: Model/User.php:286
+msgid "Married sisters cannot be greater than total sisters."
+msgstr "विवाहित बहिणी एकूण बहिणी पेक्षा जास्त असू शकत नाही"
+
+#: Model/User.php:295
+msgid "Please enter your expected education."
+msgstr "कृपया आपले अपेक्षित शिक्षण प्रविष्ट करा"
+
+#: Model/User.php:301
+msgid "Please enter your expected service type."
+msgstr "कृपया आपले अपेक्षित सेवा प्रकार प्रविष्ट करा"
+
+#: Model/User.php:307
+msgid "Please enter your expected age difference."
+msgstr "कृपया आपला अपेक्षित वयाचा फरक प्रविष्ट करा "
+
+#: Model/User.php:313
+msgid "Please enter your expected annual income."
+msgstr "कृपया आपले अपेक्षित वार्षिक उत्पन्न प्रविष्ट करा"
+
+#: Model/User.php:319
+msgid "Please enter your expected preffered city."
+msgstr "कृपया आपले अपेक्षित पसंतीचे शहर प्रविष्ट करा "
+
+#: View/Elements/blood-options.ctp:4
+#: View/Elements/complexion-options.ctp:4
+#: View/Elements/nadi-options.ctp:4
+#: View/Elements/service-business-options.ctp:4
+#: View/Elements/subcaste-options.ctp:5
+#: View/Elements/zodiac-options.ctp:4
+msgid "Select"
+msgstr "निवडा"
+
+#: View/Elements/complexion-options.ctp:2
+msgid "Gora"
+msgstr "गोरा"
+
+#: View/Elements/complexion-options.ctp:2
+msgid "Gavhal"
+msgstr "गहूवर्ण"
+
+#: View/Elements/complexion-options.ctp:2
+msgid "Savala"
+msgstr "सावळा"
+
+#: View/Elements/forgot-modal.ctp:8
+#: View/Elements/login-modal.ctp:24
+msgid "Forgot Password"
+msgstr "पासवर्ड विसरलात का?"
+
+#: View/Elements/forgot-modal.ctp:19
+#: View/Index/register_free.ctp:48
+#: View/User/edit_profile.ctp:29
+msgid "E-mail"
+msgstr "ई-मेल"
+
+#: View/Elements/forgot-modal.ctp:21
+#: View/Elements/login-modal.ctp:23
+#: View/Elements/validation-rules.ctp:92;127
+#: View/Index/register_free.ctp:74
+#: View/User/change_passwd.ctp:15
+#: View/User/subcription.ctp:75
+msgid "SUBMIT"
+msgstr "सादर"
+
+#: View/Elements/login-modal.ctp:8
+msgid "Login Form"
+msgstr "लॉग-इन"
+
+#: View/Elements/login-modal.ctp:19
+#: View/Index/register_free.ctp:52
+msgid "Username"
+msgstr "युजर नेम"
+
+#: View/Elements/login-modal.ctp:21
+#: View/Index/register_free.ctp:59
+msgid "Password"
+msgstr "पासवर्ड"
+
+#: View/Elements/nadi-options.ctp:2
+msgid "Aadya"
+msgstr "आद्य"
+
+#: View/Elements/nadi-options.ctp:2
+msgid "Madhya"
+msgstr "मध्य"
+
+#: View/Elements/nadi-options.ctp:2
+msgid "Antya"
+msgstr "अन्त्य"
+
+#: View/Elements/navbar.ctp:12;18
+msgid "My Profile"
+msgstr "माझे प्रोफाइल"
+
+#: View/Elements/navbar.ctp:19
+msgid "Edit Profile"
+msgstr "प्रोफाइल संपादित करा"
+
+#: View/Elements/navbar.ctp:20
+#: View/User/change_passwd.ctp:4
+msgid "Change Password"
+msgstr "पासवर्ड बदला"
+
+#: View/Elements/navbar.ctp:21
+msgid "Selected Profile History"
+msgstr "आजपर्यंत निवडलेले प्रोफाइल"
+
+#: View/Elements/navbar.ctp:22;37;54
+msgid "Subscription"
+msgstr "सदस्यता प्रकार"
+
+#: View/Elements/navbar.ctp:23
+msgid "Logout"
+msgstr "लॉग आउट"
+
+#: View/Elements/navbar.ctp:28
+msgid "REGISTER"
+msgstr "नवीन नांव नोंदणी"
+
+#: View/Elements/navbar.ctp:29
+msgid "LOGIN"
+msgstr "लॉग-इन"
+
+#: View/Elements/navbar.ctp:36;53
+msgid "About Us"
+msgstr "आमच्या बद्दल"
+
+#: View/Elements/navbar.ctp:38;55
+msgid "Terms & Condition"
+msgstr "अटी व शर्ती"
+
+#: View/Elements/navbar.ctp:39;56
+msgid "Contact Us"
+msgstr "आमच्याशी संपर्क साधा"
+
+#: View/Elements/search-section.ctp:4
+msgid "Search Perfect Match"
+msgstr "योग्य जोडीदार शोधा"
+
+#: View/Elements/search-section.ctp:12
+#: View/Index/index.ctp:50
+msgid "Find Your Special Someone..!"
+msgstr "योग्य जोडीदार शोधा..!"
+
+#: View/Elements/search-section.ctp:15
+#: View/Index/register_free.ctp:14
+msgid "Bride (Vadhu)"
+msgstr "वधु"
+
+#: View/Elements/search-section.ctp:18
+#: View/Index/register_free.ctp:15
+msgid "Groom (Var)"
+msgstr "वर"
+
+#: View/Elements/search-section.ctp:25
+#: View/Index/index.ctp:62
+msgid "Age From"
+msgstr "वय पासून"
+
+#: View/Elements/search-section.ctp:31
+#: View/Index/index.ctp:68
+msgid "Age To"
+msgstr "वय पर्यंत"
+
+#: View/Elements/search-section.ctp:40
+#: View/Index/index.ctp:77
+#: View/Index/register_free.ctp:39
+#: View/User/edit_profile.ctp:39
+#: View/User/profile.ctp:116
+msgid "Subcaste"
+msgstr "पोटजात"
+
+#: View/Elements/search-section.ctp:46
+#: View/Index/index.ctp:83
+#: View/Index/search.ctp:42
+#: View/User/edit_profile.ctp:172;253
+#: View/User/profile.ctp:120;213
+msgid "Education"
+msgstr "शिक्षण"
+
+#: View/Elements/search-section.ctp:55
+msgid "City"
+msgstr "शहर"
+
+#: View/Elements/search-section.ctp:59
+#: View/Index/search.ctp:70
+#: View/User/profile.ctp:187
+msgid "Residence"
+msgstr "सध्याचे ठिकाण"
+
+#: View/Elements/search-section.ctp:65
+#: View/Index/index.ctp:91
+msgid "SEARCH"
+msgstr "शोधा"
+
+#: View/Elements/service-business-options.ctp:2
+msgid "Government"
+msgstr "सरकारी"
+
+#: View/Elements/service-business-options.ctp:2
+msgid "Defence"
+msgstr "संरक्षण"
+
+#: View/Elements/service-business-options.ctp:2
+msgid "Private"
+msgstr "खाजगी"
+
+#: View/Elements/service-business-options.ctp:2
+msgid "Business"
+msgstr "व्यवसाय"
+
+#: View/Elements/service-business-options.ctp:2
+msgid "Self Employed"
+msgstr "स्वतःचा व्यवसाय"
+
+#: View/Elements/service-business-options.ctp:2
+msgid "Not Working"
+msgstr "काम नाही"
+
+#: View/Elements/status-options.ctp:2
+msgid "Unmarried"
+msgstr "अविवाहीत"
+
+#: View/Elements/status-options.ctp:2
+msgid "Widow/Widower"
+msgstr "विधवा / विधुर"
+
+#: View/Elements/status-options.ctp:2
+msgid "Divorcee"
+msgstr "घटस्फोटित"
+
+#: View/Elements/subcaste-options.ctp:2
+msgid "Khutekar"
+msgstr "खुटेकर"
+
+#: View/Elements/subcaste-options.ctp:2
+msgid "Hatkar"
+msgstr "हटकर"
+
+#: View/Elements/subcaste-options.ctp:2
+msgid "Khatik"
+msgstr "खाटीक"
+
+#: View/Elements/subcaste-options.ctp:2
+msgid "Sengar"
+msgstr "सनगर"
+
+#: View/Elements/subcaste-options.ctp:2
+msgid "Dange"
+msgstr "डांगे"
+
+#: View/Elements/subcaste-options.ctp:2
+msgid "Ahir"
+msgstr "अहिर"
+
+#: View/Elements/subcaste-options.ctp:2
+msgid "Zende"
+msgstr "झेंडे"
+
+#: View/Elements/subcaste-options.ctp:2
+msgid "Mendhe"
+msgstr "मंडे"
+
+#: View/Elements/subcaste-options.ctp:2
+msgid "Kurbar"
+msgstr "कुरूबार"
+
+#: View/Elements/subcaste-options.ctp:3
+msgid "Hulwan"
+msgstr "हुलवान"
+
+#: View/Elements/subcaste-options.ctp:3
+msgid "Kanade"
+msgstr "खंडे"
+
+#: View/Elements/subcaste-options.ctp:3
+msgid "Gadari"
+msgstr "गटारी"
+
+#: View/Elements/subcaste-options.ctp:3
+msgid "Gawli"
+msgstr "गवळी"
+
+#: View/Elements/subcaste-options.ctp:3
+msgid "Shegar"
+msgstr "शेगर"
+
+#: View/Elements/subcaste-options.ctp:3
+msgid "Pal"
+msgstr "पाल"
+
+#: View/Elements/subcaste-options.ctp:3
+msgid "Gadariya"
+msgstr "गडरिया"
+
+#: View/Elements/validation-rules.ctp:31
+msgid "Please enter full name."
+msgstr "कृपया आपले पूर्ण नाव प्रविष्ट करा"
+
+#: View/Elements/validation-rules.ctp:34
+msgid "Your user name must consist of at least 6 characters."
+msgstr "आपले युजर नेम कमीत कमी ६ अक्षरी असणे आवश्यक आहे"
+
+#: View/Elements/validation-rules.ctp:36
+msgid "Please choose subcaste."
+msgstr "कृपया आपली पोटजात निवडा"
+
+#: View/Elements/validation-rules.ctp:38;42;74
+msgid "Please provide a password."
+msgstr "कृपया आपला पासवर्ड प्रदान करा"
+
+#: View/Elements/validation-rules.ctp:39;43;75
+msgid "Your password must be at least 6 characters long."
+msgstr "आपला पासवर्ड कमीत कमी ६ अक्षरी असणे आवश्यक आहे "
+
+#: View/Elements/validation-rules.ctp:46;112
+msgid "Please enter a valid email address."
+msgstr "कृपया वैध ईमेल पत्ता प्रविष्ट करा"
+
+#: View/Elements/validation-rules.ctp:47
+#: View/User/subcription.ctp:101
+msgid "Please accept our policy."
+msgstr "कृपया आमचे धोरण स्वीकारा"
+
+#: View/Elements/validation-rules.ctp:71
+msgid "Please enter user name or email id."
+msgstr "कृपया युजर नेम किंवा ई-मेल आयडी प्रविष्ट करा"
+
+#: View/Elements/validation-rules.ctp:80;116
+msgid "Working..."
+msgstr "प्रक्रियेत..."
+
+#: View/Elements/validation-rules.ctp:89
+msgid "Invalid Login details or Account is Inactive."
+msgstr "अवैध लॉगिन तपशील किंवा खाते निष्क्रिय आहे"
+
+#: View/Elements/validation-rules.ctp:122
+msgid "Password on email Sent Succesfully"
+msgstr "ई-मेल वर पासवर्ड यशस्वीरित्या पाठविले आहे"
+
+#: View/Elements/validation-rules.ctp:124
+msgid "Invalid Email id."
+msgstr "अवैध ईमेल आयडी"
+
+#: View/Elements/zodiac-options.ctp:2
+msgid "Aries(Mesh)"
+msgstr "मेष"
+
+#: View/Elements/zodiac-options.ctp:2
+msgid "Taurus(Vrushabh)"
+msgstr "व्रुषभ"
+
+#: View/Elements/zodiac-options.ctp:2
+msgid "Gemini(Mithun)"
+msgstr "मिथुन"
+
+#: View/Elements/zodiac-options.ctp:2
+msgid "Cancer(Kark)"
+msgstr "कर्क"
+
+#: View/Elements/zodiac-options.ctp:2
+msgid "Leo(Sinha)"
+msgstr "सिंह"
+
+#: View/Elements/zodiac-options.ctp:2
+msgid "Virgo(Kanya)"
+msgstr "कन्या"
+
+#: View/Elements/zodiac-options.ctp:2
+msgid "Libra(Tula)"
+msgstr "तुळ"
+
+#: View/Elements/zodiac-options.ctp:2
+msgid "Scorpio(Vrishchik)"
+msgstr "व्रूश्चिक"
+
+#: View/Elements/zodiac-options.ctp:2
+msgid "Sagittarius(Dhanu)"
+msgstr "धनु"
+
+#: View/Elements/zodiac-options.ctp:2
+msgid "Capricorn(Makar)"
+msgstr "मकर"
+
+#: View/Elements/zodiac-options.ctp:2
+msgid "Aquarius(Kumbha)"
+msgstr ""
+
+#: View/Elements/zodiac-options.ctp:2
+msgid "Pisces(Meen)"
+msgstr "मिन"
+
+#: View/Index/index.ctp:104;113
+msgid "Months"
+msgstr "महिने"
+
+#: View/Index/index.ctp:107;116;126
+msgid "Get four profile contact details each month"
+msgstr "प्रत्येक महिन्यात चार प्रोफाइल संपर्क तपशील मिळवा"
+
+#: View/Index/index.ctp:108;117;127
+msgid "Read More"
+msgstr "अधिक वाचा"
+
+#: View/Index/index.ctp:109;118;128
+msgid "REGISTER NOW"
+msgstr " नोंदणी करा "
+
+#: View/Index/index.ctp:123
+msgid "Year"
+msgstr "वर्ष"
+
+#: View/Index/register_free.ctp:5
+msgid "Registration Form"
+msgstr "नोंदणी फॉर्म"
+
+#: View/Index/register_free.ctp:10
+#: View/Index/search.ctp:26
+#: View/User/edit_profile.ctp:17
+msgid "Full Name"
+msgstr "संपूर्ण नांव"
+
+#: View/Index/register_free.ctp:21
+#: View/User/profile.ctp:80
+#: View/User/edit_profile.ctp:24
+msgid "Date Of Birth"
+msgstr "जन्म दिनांक"
+
+#: View/Index/register_free.ctp:26
+#: View/User/profile.ctp:140
+msgid "Marital Status"
+msgstr "वैवाहिक दर्जा"
+
+#: View/Index/register_free.ctp:35
+#: View/User/edit_profile.ctp:35
+msgid "Caste"
+msgstr "जात/पोटजात"
+
+#: View/Index/register_free.ctp:36
+msgid "Dhangar"
+msgstr "धनगर"
+
+#: View/Index/register_free.ctp:63
+#: View/User/change_passwd.ctp:12
+msgid "Confirm Password"
+msgstr "कन्फर्म पासवर्ड"
+
+#: View/Index/register_free.ctp:69
+msgid "I have read and agree all terms and conditions."
+msgstr "सर्व नियम मी वाचले असुन ते मला मान्य आहेत"
+
+#: View/Index/search.ctp:7
+msgid "Match Found!"
+msgstr "जोडीदार आढळले"
+
+#: View/Index/search.ctp:30
+msgid "Age"
+msgstr "वय"
+
+#: View/Index/search.ctp:34
+#: View/User/edit_profile.ctp:108
+#: View/User/profile.ctp:76
+msgid "Height"
+msgstr "उंची"
+
+#: View/Index/search.ctp:38
+msgid "Subcast"
+msgstr "पोटजात"
+
+#: View/Index/search.ctp:58
+msgid "Complextion"
+msgstr "वर्ण"
+
+#: View/Index/search.ctp:66
+#: View/User/edit_profile.ctp:193;264
+#: View/User/profile.ctp:96;233
+msgid "Annual Income"
+msgstr "वार्षिक उत्पन्न"
+
+#: View/Index/search.ctp:82
+msgid "VIEW FULL PROFILE"
+msgstr "संपूर्ण प्रोफाइल पहा"
+
+#: View/Index/search.ctp:91
+msgid "«"
+msgstr ""
+
+#: View/Index/search.ctp:93
+msgid "»"
+msgstr ""
+
+#: View/User/change_passwd.ctp:8
+msgid "Current Password"
+msgstr "उपस्थित पासवर्ड"
+
+#: View/User/change_passwd.ctp:10
+msgid "New Password"
+msgstr "नवीन पासवर्ड"
+
+#: View/User/edit_profile.ctp:7
+#: View/User/profile.ctp:61
+msgid "Personal Information"
+msgstr "वैयक्तिक माहिती"
+
+#: View/User/edit_profile.ctp:13
+msgid "First Name"
+msgstr "नाव"
+
+
+#: View/User/edit_profile.ctp:48
+msgid "Mobile Number"
+msgstr "१० अंकी मोबाईल नंबर"
+
+#: View/User/edit_profile.ctp:52
+msgid "Alternate Mobile Number"
+msgstr "१० अंकी मोबाईल नंबर 2"
+
+#: View/User/edit_profile.ctp:59;63
+msgid "Telephone Number"
+msgstr "टेलिफोन क्रमांक"
+
+#: View/User/edit_profile.ctp:69;159;198;239;285
+msgid "SAVE"
+msgstr "जतन करा"
+
+#: View/User/edit_profile.ctp:77
+msgid "Personal Details"
+msgstr "वैयक्तिक तपशील"
+
+#: View/User/edit_profile.ctp:82
+msgid "Birthplace"
+msgstr "जन्म ठिकाण"
+
+#: View/User/edit_profile.ctp:86
+msgid "Time of Birth"
+msgstr "जन्म वेळ"
+
+#: View/User/edit_profile.ctp:93
+#: View/User/profile.ctp:88
+msgid "Complexion"
+msgstr "वर्ण"
+
+#: View/User/edit_profile.ctp:99
+msgid "Marriage-status"
+msgstr "वैवाहिक स्थिती"
+
+#: View/User/edit_profile.ctp:114
+#: View/User/profile.ctp:92
+msgid "Blood Group"
+msgstr "रक्त गट"
+
+#: View/User/edit_profile.ctp:123
+#: View/User/profile.ctp:128
+msgid "Sun Shine (Ras)"
+msgstr "रास"
+
+#: View/User/edit_profile.ctp:129
+#: View/User/profile.ctp:136
+msgid "Nakshatra"
+msgstr "नक्षत्र"
+
+#: View/User/edit_profile.ctp:136
+#: View/User/profile.ctp:132
+msgid "Nadi"
+msgstr "नाडी"
+
+#: View/User/edit_profile.ctp:142
+msgid "Manglik-Yes"
+msgstr "मंगळ-आहे"
+
+#: View/User/edit_profile.ctp:143
+msgid "Manglik-No"
+msgstr "मंगळ-नाही"
+
+#: View/User/edit_profile.ctp:149
+msgid "Hadicapped -Yes"
+msgstr "अपंगत्व-आहे"
+
+#: View/User/edit_profile.ctp:150
+msgid "Hadicapped -No"
+msgstr "अपंगत्व-नाही"
+
+#: View/User/edit_profile.ctp:153
+msgid "If Yes, Details"
+msgstr "असल्यास, अधिक माहिती"
+
+#: View/User/edit_profile.ctp:167
+msgid "Education & Profession Information"
+msgstr "शिक्षण आणि व्यवसाय"
+
+#: View/User/edit_profile.ctp:187
+#: View/User/profile.ctp:237
+msgid "Occupation"
+msgstr "व्यवसाय"
+
+#: View/User/edit_profile.ctp:206
+#: View/User/profile.ctp:151
+msgid "Family Information"
+msgstr "कौटुंबिक माहिती"
+
+#: View/User/edit_profile.ctp:211
+#: View/User/profile.ctp:163
+msgid "Total Brothers"
+msgstr "भाऊ"
+
+#: View/User/edit_profile.ctp:217
+msgid "Married Brothers"
+msgstr "विवाहीत भाऊ"
+
+#: View/User/edit_profile.ctp:226
+#: View/User/profile.ctp:183
+msgid "Total Sisters"
+msgstr "बहीण"
+
+#: View/User/edit_profile.ctp:232
+msgid "Married Sisters"
+msgstr "विवाहीत बहीण"
+
+#: View/User/edit_profile.ctp:248
+#: View/User/profile.ctp:197
+msgid "Expectations"
+msgstr "अपेक्षा"
+
+#: View/User/edit_profile.ctp:257
+#: View/Index/search.ctp:62
+#: View/User/edit_profile.ctp:178
+msgid "Service/Business"
+msgstr "नोकरी / व्यवसाय"
+
+#: View/User/edit_profile.ctp:268
+#: View/User/profile.ctp:209
+msgid "Age Difference"
+msgstr "वयातील अंतर"
+
+#: View/User/edit_profile.ctp:275
+#: View/User/profile.ctp:217
+msgid "Prefered City"
+msgstr "शहर प्राधान्यता"
+
+#: View/User/edit_profile.ctp:279
+#: View/User/profile.ctp:241
+msgid "Other Expectation"
+msgstr "विशेष अपेक्षा"
+
+#: View/User/profile.ctp:34
+msgid "EDIT PROFILE"
+msgstr "प्रोफाइल संपादित करा"
+
+#: View/User/profile.ctp:72
+msgid "Name"
+msgstr "नांव"
+
+#: View/User/profile.ctp:84
+msgid "Current Age"
+msgstr "वर्तमान वय"
+
+
+#: View/User/profile.ctp:99
+msgid "Manglik"
+msgstr "मंगळ"
+
+#: View/User/profile.ctp:124
+msgid "Service"
+msgstr "नोकरी"
+
+
+#: View/User/profile.ctp:167
+msgid "Native Place"
+msgstr "मुळ गांव"
+
+
+#: View/User/profile.ctp:260;274;288
+msgid "Just a moment..."
+msgstr "फक्त एक क्षण..."
+
+#: View/User/profile.ctp:266
+msgid "Profile added to your list."
+msgstr "आपल्या यादीत प्रोफाइल समाविष्ट झाले"
+
+#: View/User/profile.ctp:278
+msgid "Contact details has been sent successfully."
+msgstr "संपर्क तपशील यशस्वीरित्या पाठविले गेले आहे"
+
+#: View/User/subcription.ctp:5
+msgid "My Subscription"
+msgstr "माझी सदस्यता"
+
+#: View/User/subcription.ctp:16
+msgid "Customer ID"
+msgstr "ग्राहक क्रमांक"
+
+#: View/User/subcription.ctp:20
+msgid "Subscription Date"
+msgstr "सदस्यता तारीख"
+
+#: View/User/subcription.ctp:24
+msgid "Package"
+msgstr "कालावधी"
+
+#: View/User/subcription.ctp:28
+msgid "Account Expiry Date"
+msgstr "खाते कालावधी समाप्ती तारीख"
+
+#: View/User/subcription.ctp:35
+msgid "Account Expires in"
+msgstr "खाते कालावधी समाप्ती"
+
+#: View/User/subcription.ctp:39
+msgid "Amount Paid"
+msgstr "रक्कम अदा"
+
+#: View/User/subcription.ctp:46
+msgid "Upgrade Subscribe Now"
+msgstr "अपग्रेड सदस्यता"
+
+#: View/User/subcription.ctp:51
+msgid "Select Package"
+msgstr "कालावधी निवडा "
+
+#: View/User/subcription.ctp:60
+msgid "Pay Online"
+msgstr "ऑनलाइन पैसे भरणार्यांसाठी"
+
+#: View/User/subcription.ctp:61
+msgid "Pay By Cheque"
+msgstr "चेकने पैसे भरणार्यांसाठी"
+
+#: View/User/subcription.ctp:63
+msgid "Bank Name"
+msgstr "बँकेचे नाव"
+
+#: View/User/subcription.ctp:65
+msgid "Cheque Number"
+msgstr "चेक क्रमांक"
+
+#: View/User/subcription.ctp:67
+msgid "Cheque Amount"
+msgstr "चेक रक्कम"
+
+#: View/User/subcription.ctp:72
+msgid "I accept all <a href=\"#.\">Terms & Conditions</a>"
+msgstr "मी सर्व <a href=\"#.\">नियम व अटी स्वीकारत आहे</a>"
+
+#: View/User/subcription.ctp:98
+msgid "Please select subsciption package."
+msgstr "कृपया सदस्यता पॅकेज निवडा "
+
+#: View/User/subcription.ctp:99
+msgid "Please enter bank name."
+msgstr "कृपया बँकेचे नाव प्रविष्ट करा"
+
+#: View/User/subcription.ctp:100
+msgid "Please enter cheque number."
+msgstr "कृपया चेक क्रमांक प्रविष्ट करा"
+
+#: View/User/user_short_list.ctp:25
+#: View/User/view_user_history.ctp:43;72;99
+msgid "Record Not found"
+msgstr "रेकॉर्ड आढळले नाही"
+
+#: View/User/view_user_history.ctp:20
+msgid "Current Month"
+msgstr "चालू महिना"
+
+#: View/User/view_user_history.ctp:49
+msgid "Last Month"
+msgstr "गेल्या महिन्यात"
+
+#: View/User/view_user_history.ctp:77
+msgid "Before 60days"
+msgstr "६० दिवस आधी"
+
+#: Plugin/Search/Controller/Component/PrgComponent.php:423
+msgid "Please correct the errors below."
+msgstr "कृपया खालील त्रुटी दुरुस्त करा"
+
+#: View/Errors/error400.ctp:21
+#: View/Errors/error500.ctp:21
+msgid "Error"
+msgstr "त्रुटी"
+
+#: View/Errors/error400.ctp:23
+msgid "The requested address %s was not found on this server."
+msgstr "विनंती पत्ता %s या सर्व्हरवर आढळली नाही"
+
+#: View/Errors/error500.ctp:22
+msgid "An Internal Error Has Occurred."
+msgstr "एक अंतर्गत त्रुटी आली आहे"
+
+#: View/Layouts/default.ctp:19
+#: View/Layouts/error.ctp:19
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+
+#: View/Layouts/default.ctp:20
+msgid "CakePHP %s"
+msgstr ""
+
+#: webroot/test.php:93
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+
+#: View/User/profile.ctp:36
+msgid "ADD FAVOURITE"
+msgstr "आवडते सूचीमध्ये समाविष्ट करा"
+
+#: View/User/profile.ctp:37
+msgid "GET CONTACT DETAILS"
+msgstr "संपर्क माहिती मिळवणे"
+
+#: View/Elements/suggested-profiles-modal.ctp:37
+msgid "Suggested Profiles"
+msgstr "सूचित प्रोफाइल"
+
+#: View/User/index.ctp:102
+msgid "4 Easy Steps to Find your Life Partner"
+msgstr "४ सोपी पावले तुमचा योग्य जोडीदार शोधण्यासाठी!"
+
+#: View/User/index.ctp:103
+msgid "Create Your Account"
+msgstr "आपले खाते तयार करा!"
+
+#: View/User/index.ctp:104
+msgid "Subscribe to Dhangar Vivaah"
+msgstr "धनगर विवाहची सदस्यता घ्या!"
+
+#: View/User/index.ctp:105
+msgid "Search profile as per your requirment"
+msgstr "आपल्या  गरजेनुसार प्रोफाइल शोधा!"
+
+#: View/User/index.ctp:106
+msgid "Get Contact Details on registered Email"
+msgstr "आपल्या रजिस्टर मेल आयडी वर संपर्क तपशील मिळवा!"
+
+#: View/User/subscription.ctp:2
+#: View/User/subscription.ctp:10
+msgid "Facilities after Subscription"
+msgstr "सदस्यता नंतर मिळणारी सुविधा"
+
+#: View/User/subscription.ctp:16
+#: View/User/subscription.ctp:25
+#: View/User/subscription.ctp:35
+msgid "SUBSCRIBE NOW"
+msgstr "सदस्यता घ्या"

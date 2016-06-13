@@ -1,0 +1,258 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-02-14 12:59+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/IndexController.php:37
+msgid "Registration Successfull."
+msgstr ""
+
+#: Controller/IndexController.php:66
+msgid "You have verified successfully, Please login to access your account."
+msgstr ""
+
+#: Controller/IndexController.php:69
+msgid "Verification fails, invalid code or email."
+msgstr ""
+
+#: Lib/ProcessMgmt.php:5
+msgid "Error!"
+msgstr ""
+
+#: Lib/UserMgmt.php:42
+msgid "Verification mail sending fail, Please contact site administrator."
+msgstr ""
+
+#: Lib/UserMgmt.php:44
+msgid "Verification mail send sucessfully. Please check your mail inbox."
+msgstr ""
+
+#: Lib/UserMgmt.php:59
+msgid "Password sending fail, Please contact site administrator."
+msgstr ""
+
+#: Lib/UserMgmt.php:62
+msgid "Password has been sent sucessfully. Please check your mail inbox."
+msgstr ""
+
+#: Model/User.php:15
+msgid "Please enter your full name."
+msgstr ""
+
+#: Model/User.php:19
+msgid "Full name must be between 6 to 30 characters."
+msgstr ""
+
+#: Model/User.php:34
+msgid "Please select Date of Birth."
+msgstr ""
+
+#: Model/User.php:40
+msgid "Please select Sub-Caste."
+msgstr ""
+
+#: Model/User.php:46
+msgid "Please enter user name."
+msgstr ""
+
+#: Model/User.php:50
+msgid "User name must be between 6 to 30 characters."
+msgstr ""
+
+#: Model/User.php:54
+msgid "User Name is already in use, Choose another."
+msgstr ""
+
+#: Model/User.php:61;67
+msgid "Your password must be between 6 and 30 characters."
+msgstr ""
+
+#: Model/User.php:71
+msgid "The passwords you entered do not match."
+msgstr ""
+
+#: View/Elements/forgot-modal.ctp:8
+msgid "Forgot Password"
+msgstr ""
+
+#: View/Elements/forgot-modal.ctp:21
+#: View/Elements/login-modal.ctp:23
+#: View/Index/register_free.ctp:91
+msgid "SUBMIT"
+msgstr "सादर"
+
+#: View/Elements/login-modal.ctp:8
+msgid "Login Form"
+msgstr ""
+
+#: View/Elements/login-modal.ctp:19
+#: View/Index/register_free.ctp:69
+msgid "Username"
+msgstr ""
+
+#: View/Elements/login-modal.ctp:21
+#: View/Index/register_free.ctp:76
+msgid "Password"
+msgstr ""
+
+#: View/Elements/navbar.ctp:7
+msgid "REGISTER"
+msgstr "नवीन नांव नोंदणी"
+
+#: View/Elements/navbar.ctp:8
+msgid "LOGIN"
+msgstr "लॉग-इन"
+
+#: View/Elements/navbar.ctp:20
+msgid "About Us"
+msgstr "आमच्या बद्दल"
+
+#: View/Elements/navbar.ctp:21
+msgid "Subscription"
+msgstr "सदस्यता"
+
+#: View/Elements/navbar.ctp:22
+msgid "Terms & Condition"
+msgstr "अटी व शर्ती"
+
+#: View/Elements/navbar.ctp:23
+msgid "Contact Us"
+msgstr "आमच्याशी संपर्क साधा"
+
+#: View/Index/register_free.ctp:4
+msgid "Registration Form"
+msgstr ""
+
+#: View/Index/register_free.ctp:9
+msgid "Full Name"
+msgstr "संपूर्ण नांव"
+
+#: View/Index/register_free.ctp:13
+msgid "Bride (Vadhu)"
+msgstr "वधु"
+
+#: View/Index/register_free.ctp:14
+msgid "Groom (Var)"
+msgstr "वर"
+
+#: View/Index/register_free.ctp:20
+msgid "Date Of Birth"
+msgstr "जन्म दिनांक"
+
+#: View/Index/register_free.ctp:25
+msgid "Marital Status"
+msgstr "वैवाहिक दर्जा"
+
+#: View/Index/register_free.ctp:27
+msgid "Unmarried"
+msgstr ""
+
+#: View/Index/register_free.ctp:28
+msgid "Widow/Widower"
+msgstr ""
+
+#: View/Index/register_free.ctp:29
+msgid "Divorcee"
+msgstr ""
+
+#: View/Index/register_free.ctp:36
+msgid "Caste"
+msgstr "जात"
+
+#: View/Index/register_free.ctp:37
+msgid "Dhangar"
+msgstr ""
+
+#: View/Index/register_free.ctp:40
+msgid "Subcaste"
+msgstr "पोटजात"
+
+#: View/Index/register_free.ctp:43
+msgid "Khutekar"
+msgstr ""
+
+#: View/Index/register_free.ctp:44
+msgid "Hatkar"
+msgstr ""
+
+#: View/Index/register_free.ctp:45
+msgid "Khatik"
+msgstr ""
+
+#: View/Index/register_free.ctp:46
+msgid "Sengar"
+msgstr ""
+
+#: View/Index/register_free.ctp:47
+msgid "Dange"
+msgstr ""
+
+#: View/Index/register_free.ctp:48
+msgid "Ahir"
+msgstr ""
+
+#: View/Index/register_free.ctp:49
+msgid "Zende"
+msgstr ""
+
+#: View/Index/register_free.ctp:50
+msgid "Mendhe"
+msgstr ""
+
+#: View/Index/register_free.ctp:51
+msgid "Kurbar"
+msgstr ""
+
+#: View/Index/register_free.ctp:52
+msgid "Hulwan"
+msgstr ""
+
+#: View/Index/register_free.ctp:53
+msgid "Kanade"
+msgstr ""
+
+#: View/Index/register_free.ctp:54
+msgid "Gadari"
+msgstr ""
+
+#: View/Index/register_free.ctp:55
+msgid "Gawli"
+msgstr ""
+
+#: View/Index/register_free.ctp:56
+msgid "Shegar"
+msgstr ""
+
+#: View/Index/register_free.ctp:57
+msgid "Pal"
+msgstr ""
+
+#: View/Index/register_free.ctp:58
+msgid "Gadariya"
+msgstr ""
+
+#: View/Index/register_free.ctp:65
+msgid "E-mail"
+msgstr "ई-मेल"
+
+#: View/Index/register_free.ctp:80
+msgid "Confirm Password"
+msgstr ""
+
+#: View/Index/register_free.ctp:86
+msgid "I have read and agree all terms and conditions."
+msgstr "सर्व नियम मी वाचले असुन ते मला मान्य आहेत."
+
+msgid "Record Not found"
+msgstr "टेलिफोन क्रमांक"

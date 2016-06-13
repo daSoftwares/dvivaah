@@ -1,0 +1,1 @@
+<?php echo 'test'; echo $this->element('action-msg-div');?>

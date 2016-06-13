@@ -1,0 +1,208 @@
+/* Mobile first queries */
+@media only screen and (max-width: 768px) {
+	.three-months,
+	.six-months,
+	.thelve-months,
+	.logo,
+	.user-login,
+	.cpoyright,
+	.terms-condition,
+	.view-history-wrapper .columns{
+		width: 100% !important;
+		margin-left: 0 !important;
+		margin-bottom: 20px !important;
+	}
+}
+/* Larger than mobile */
+@media (min-width: 400px) {
+	/*******Action List*******/
+	.actions{
+		padding: 10px;
+	}
+	
+	.selected-profile-name{
+		width:65%;
+		padding: 25px 0;
+		font-size: 18px;
+	}
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 769px) {
+
+	.row{
+		margin: 0;
+	}
+
+	.show-on-desktop{
+		display: block;
+	}
+
+	.show-on-mobile{
+		display: none;
+	}
+
+	.user-login{
+		margin-top:5.5%; 
+	}
+
+	/*--------------Four Steps------------*/
+	.four-steps h4{
+	    width: 355px;
+	}
+	/******form Registration*********/
+
+	.registration-left-content{
+		width: 50%;
+		float: left;
+	}
+
+	.registration-right-content{
+		width: 40%;
+		float: right;
+	}
+
+	/******Search Profile********/
+
+	.search-profile-container{
+		padding: 20px;
+		clear: both;
+	}
+
+	/********My Profile*********/
+	
+	.my-profile-info .search-porfile-des.border{
+		margin: 0px;
+	}
+
+	.search-porfile-des:nth-child(2n){
+		border-right: 2px solid #fff;
+	}
+
+	.suggested-profiles .modal-lg{
+		width: 965px;
+	}
+
+	.search-porfile-des td span{
+		display: block;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+	    width: 155px;
+	}
+
+	/*********Login Header*********/
+	.actions{
+		float: right;
+	}
+
+	footer{
+		text-align: left;
+	}
+
+	.terms-condition a{
+		float: right;
+	}
+
+	/****** ViewHistory ***********/
+	.view-history-content{
+		margin-bottom: 20px;
+	}
+	.content-style{
+		padding: 20px;	
+	}
+
+	/******my subscription page**********/
+	.my-subscribe-account{
+		width:50%;
+		margin: 0 auto;	
+	}
+	.subscribe-now {
+		width: 45%;
+		margin: 0 auto;
+	}
+	/********Change My Password*********/
+	.change-my-password{
+		width: 50%;
+		margin: 0 auto;	
+	}
+
+	/********Content Pages*********/
+	.about-us .content-style,
+	.subscription-page .content-style,
+	.terms-condition-page .content-style,
+	.contact-us .content-style{
+		padding:20px 50px;
+	}
+	
+	.contact-address{
+		width: 30%;
+		float:left;
+	}	
+	.contact-us-content map{
+		width: 70%;
+		float:left;
+	}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+/* Larger than desktop */
+@media (min-width: 1182px) {
+
+	/******Search Profile********/
+
+	.search-profile-img{
+		float: left
+	}
+
+	.search-porfile-des.border{
+		border-top: none;
+    	margin:0 0 0 30px;
+    	padding-top: 0;
+    	border-right: 2px solid #fff ;
+	}
+
+	.search-porfile-des{
+		width:37.5%;
+		float: left;
+	}
+
+	.view-full-prof-btn{
+		text-align: left;	
+	}
+
+	/********My Profile*********/
+	.my-profile-info .search-porfile-des{
+		width: 50%;
+	}
+	.my-profile-container{
+		padding: 20px;
+	}
+	.my-profile-img-container{
+		float:left;
+		margin-top: 20px;
+	}
+	.my-profile-info-content{
+		width: 75.5%;
+		float: left;
+	}
+	.my-profile-info-content{
+		margin: 0 0 0 30px;
+	}
+	
+	.my-profile-img-container{
+		width: 195px;
+	}
+
+	.my-profile-img-container .button{
+		float: left;
+		padding:0 10px;
+	}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}

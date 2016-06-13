@@ -1,0 +1,26 @@
+.message{
+	background: none repeat scroll 0 0 #C3D9FF;
+	border: 2px solid #0074A2;
+	line-height: 18px;
+	margin: 10px 0;
+	padding: 5px 5px 5px 25px;
+	width: 100%;	
+}
+
+
+/*********Validation Error***************/
+input[type="email"].error,
+input[type="number"].error,
+input[type="search"].error,
+input[type="text"].error,
+input[type="tel"].error,
+input[type="url"].error,
+input[type="password"].error,
+textarea.error
+input.error{
+	border: 1px solid #e02424;
+}
+.error{
+	font-size: 12px;
+	color: #e02424;
+}

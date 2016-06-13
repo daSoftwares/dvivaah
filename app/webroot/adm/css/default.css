@@ -1,0 +1,72 @@
+.admin-login-wrapper#wrapper{
+	padding: 0;
+}
+
+.dropdown-menu{
+	min-width: 180px !important;
+}
+
+.username-password-content{
+	margin:10% 0;
+}
+
+.error-message-container{
+	width: 100%;
+	margin: 10px 0;
+	padding: 5px 5px 5px 25px;
+	background: #ffdc87;
+	border: 2px solid #e02424;
+	line-height: 18px;
+}
+
+.error-message-container .glyphicon{
+	color: #e02424;
+	margin-left: -20px;
+}
+
+.success-message-container{
+	width: 100%;
+	margin: 10px 0;
+	padding: 5px 5px 5px 25px;
+	background: #8dd086;
+	border: 2px solid #237601;
+	line-height: 18px;
+}
+
+.success-message-container .glyphicon{
+	color: #237601;
+	margin-left: -20px;
+}
+
+.pay-by-cheque{
+	display: none;
+}
+
+.dashboard-selectbox,.search-record{
+	margin: 10px 20px 30px 0;
+}
+
+.dashboard-selectbox option,.search-record{
+	padding: 10px;
+}
+
+.user-details .edit-details{
+	cursor: pointer;
+}
+
+/* per month revenue */
+.date-picker-wrapper{
+	width: 100%;
+}
+
+.date-picker-container{
+	position: relative;
+	margin: 30px 0;
+	width:300px;
+	float: left;
+}
+
+.apply-date-range{
+	float: left;
+	margin:27px;
+}
